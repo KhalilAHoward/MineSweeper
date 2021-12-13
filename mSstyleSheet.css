@@ -1,0 +1,23 @@
+body {
+    margin:50px;
+  }
+  
+  header {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+  }
+  
+  .box {
+    background-color: lightgrey;
+    border-radius: 5px;
+  }
+  
+  .board {
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(10, 100px);
+    grid-template-rows: repeat(10, 100px);
+    grid-auto-flow: column;
+    padding-top: 50px;
+  }
